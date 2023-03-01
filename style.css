@@ -1,0 +1,22 @@
+.btn-readmore {
+    background-color: rgb(230, 221, 221);
+}
+body::before {
+    display: block;
+    content: "";
+    height: 70px;
+}
+#bottom-right-link {
+    display: inline-block;
+    position: relative;
+    left: 75vw;
+    bottom: 55px;
+}
+#map {
+    border-radius: 10px;
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
